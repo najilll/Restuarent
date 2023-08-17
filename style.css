@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+
+
+}
+
+body {
+    overflow-x: hidden;
+    line-height: 1.4;
+    font-weight: lighter;
+
+
+
+
+
+}
+
+.nav {
+    background-color: #fff;
+    width: 100%;
+    height: 14vh;
+    box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1;
+
+}
+
+.nav img {
+    position: relative;
+    bottom: -10px;
+    left: 129px;
+    z-index: 1;
+
+
+}
+
+.front {
+    position: relative;
+    top: 191px;
+    left: 38px;
+
+}
+
+.front img {
+    position: relative;
+    top: -60px;
+    left: 137px;
+
+}
+
+.front h3 {
+    background-color: rgb(7, 172, 7);
+    color: #fff;
+    width: 210px;
+    height: 3vh;
+    padding: 8px;
+    position: relative;
+    top: -522px;
+    left: 92px;
+}
+
+.front pre {
+    font-size: 69px;
+    position: relative;
+    bottom: 500px;
+    left: 159px;
+
+}
+
+.front p {
+    font-size: 19px;
+    position: relative;
+    bottom: 479px;
+    left: 735px;
+
+}
+
+.front button {
+    background-color: rgb(249, 206, 99);
+    width: 98px;
+    height: 5vh;
+    position: relative;
+    bottom: 434px;
+    left: 736px;
+    border: none;
+}
+
+.front button:hover {
+    background-color: #f6b826;
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    color: #fbf9f9;
+}
+
+.nav span {
+    position: relative;
+    left: 1085px;
+    top: 14px;
+    font-size: 48px;
+
+
+}
+
+.card1 {
+
+    width: 356px;
+    height: 15vh;
+    border: 2px;
+    background-color: #fff;
+    position: relative;
+    left: 173px;
+
+}
+
+.card1 img {
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+}
+
+.card1 h2 {
+    position: relative;
+    bottom: 74px;
+    left: 130px;
+
+}
+
+.card1 p {
+    position: relative;
+    left: 131px;
+    bottom: 79px;
+
+}
+
+.card1:hover {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    transition: 0.2s ease-in-out;
+    background-color: #fff;
+}
+
+.card2 {
+
+    width: 356px;
+    height: 15vh;
+    border: 2px;
+    background-color: #fff;
+    position: relative;
+    left: 173px;
+
+}
+
+.card2 img {
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+}
+
+.card2 h2 {
+    position: relative;
+    bottom: 52px;
+    left: 130px;
+
+}
+
+.card2 p {
+    position: relative;
+    left: 131px;
+    bottom: 59px;
+
+}
+
+.card2:hover {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    transition: 0.2s ease-in-out;
+    background-color: #fff;
+}
+
+.card3 {
+
+    width: 356px;
+    height: 15vh;
+    border: 2px;
+    background-color: #fff;
+    position: relative;
+    left: 173px;
+
+}
+
+.card3 img {
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+}
+
+.card3 h2 {
+    position: relative;
+    bottom: 52px;
+    left: 130px;
+
+}
+
+.card3 p {
+    position: relative;
+    left: 131px;
+    bottom: 59px;
+
+}
+
+.card3:hover {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    transition: 0.2s ease-in-out;
+    background-color: #fff;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+
+}
+
+.line {
+    width: 1170px;
+}
+
+.button2 {
+    background-color: green;
+    color: #fff;
+    border: none;
+    height: 4vh;
+    width: 90px;
+}
+.grid img{
+    width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-areas:
+        "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+    margin-left: 11%;
+    margin-right: 12%;
+
+
+}
+
+.item1 {
+    grid-area: I1;
+}
+
+.item2 {
+    grid-area: I2;
+
+}
+
+.item3 {
+    grid-area: I3;
+}
+
+.item4 {
+    grid-area: I4;
+}
+
+.item5 {
+    grid-area: I5;
+}
+
+.item6 {
+    grid-area: I6;
+}
+
+.item7 {
+    grid-area: I7;
+}
+
+.item1 img,
+.item2 img,
+.item3 img,
+.item4 img,
+.item5 img,
+.item6 img,
+.item7 img {
+    border-radius: 10px;
+}
+
+.item1 img:hover {
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.item2 img:hover {
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.item3 img:hover {
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.item4 img:hover {
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.item5 img:hover {
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.item6 img:hover {
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.item7 img:hover {
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#fff0DB ;
+    height: 33vh;
+    width: 100%;
+    color: #808080;
+    position: relative;
+    
+
+    
+}
+footer ul{
+    list-style: none;
+}
+.end{
+    display: list-item;
+    list-style: none;
+    position: relative;
+    top: 30px;
+    
+}
+footer img{
+    width: 12%;
+    height: 16vh;
+}
+.head,.head1{
+    position: relative;
+    top: 30px;
+}
+.head h3,.head1 h3{
+    position: relative;
+    left: 37px;
+    top: 10px;
+}
+.foot{
+    background-color: #808080;
+    color: #fff;
+    height: 10vh;
+    width: 100%;
+    font-size: medium;
+    
+    
+}
+.foot h2{
+    font-size: medium;
+    position: relative;
+    top: 30px;
+
+}
+
+
+
+
+@media screen and (max-width:450px) {
+    body{
+        overflow-x: hidden;
+        
+    }
+    .nav {
+        width: 100%;
+        height: 16vh;
+    }
+
+    .nav img {
+        position: relative;
+        left: 10px;
+    }
+
+    .nav span {
+        position: relative;
+        left: 126px;
+        top: 3px;
+    }
+
+    .front img {
+        width: 70%;
+        position: relative;
+        left: 10px;
+    }
+
+    .front pre {
+        font-size: 29px;
+        position: relative;
+        left: -142px;
+        top: -69px;
+    }
+
+    .front h3 {
+        position: relative;
+        top: 47px;
+        left: -107px;
+        font-size: 16px;
+    }
+
+    .front p {
+        position: relative;
+        left: -25px;
+        top: -31px;
+        font-size: small;
+    }
+
+    .cards {
+        flex-direction: column;
+        position: relative;
+        top: 181px;
+        left: -189px;
+    }
+
+    .line {
+        width: 361px;
+        position: relative;
+        top: 171px;
+        left: -18px;
+    }
+    .front button{
+        position: relative;
+        top: -20px;
+        left: -24px;
+    }
+    .explore{
+        position: relative;
+        top: 74px;
+
+    }
+    .grid{
+        position: relative;
+        top: 133px;
+    }
+    footer{
+        height: 79vh;
+        position: relative;
+        top: 228px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .foot{
+        position: relative;
+        top: 229px;
+    }
+    footer img{
+        width: 55%;
+        height: 16vh
+    }
+    .button2{
+        position: relative;
+        top: 216px;
+    }
+}
+@media screen and (min-width:451px) and (max-width:768px) {
+    .nav{
+        width: 100%;
+
+        
+    }
+    .nav span{
+        position: relative;
+        left: 458px;
+
+    }
+    .nav img{
+        position: relative;
+        left: 50px;
+    }
+    .front img{
+        position: relative;
+        left: 86px;
+    }
+    .front pre{
+        position: relative;
+        top: -101px;
+        left: -201px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 167px;
+        top: 225px;
+    }
+    .front h3{
+        position: relative;
+        top: 145px;
+    left: -271px;
+    }
+    .front p{
+        position: relative;
+        left: -1px;
+        top: -12px;
+    }
+    .front button{
+        position: relative;
+        left: 1px;
+        top: 10px;
+    }
+    .line{
+        position: relative;
+        top: 247px;
+        width: 713px;
+
+    }
+    .explore{
+        position: relative;
+        top: 161px;
+    }
+    .button2{
+        position: relative;
+        top: 286px;
+    }
+    .grid{
+        position: relative;
+        top: 214px;
+    }
+    footer{
+        position: relative;
+        top: 238px;
+    }
+    .foot{
+        position: relative;
+        top: 238px;
+    }
+
+}
